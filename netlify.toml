@@ -1,0 +1,16 @@
+# King's Royale Media Group — Netlify config
+# Static site, no build step. Repo root IS the site root.
+[build]
+  publish = "."
+  command = ""
+
+# Nice URLs: /beatstore instead of /beatstore.html still resolve
+[[redirects]]
+  from = "/store"
+  to = "/beatstore.html"
+  status = 301
+
+[[redirects]]
+  from = "/book-now"
+  to = "/book.html"
+  status = 301
