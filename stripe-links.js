@@ -7,7 +7,7 @@
    ============================================================ */
 window.KSB_STRIPE = {
   // one-time services
-  "Custom Beat ($250)": "",
+  "Custom Beat ($250)": "https://buy.stripe.com/9B6dR90CUbCwau2drTgbm00",
   "Premium Custom Beat ($500)": "",
   "Exclusive Production Package ($1000+)": "",
   // memberships (create these as RECURRING / monthly Payment Links)
